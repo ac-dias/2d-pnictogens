@@ -1,0 +1,60 @@
+ running   16 mpi-ranks, on    1 nodes
+ distrk:  each k-point on   16 cores,    1 groups
+ distr:  one band on    4 cores,    4 groups
+ vasp.6.4.2 20Jul23 (build Nov 14 2023 13:24:25) complex                        
+  
+ POSCAR found type information on POSCAR N 
+ POSCAR found :  1 types and       2 ions
+ Reading from existing POTCAR
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     You use a magnetic or noncollinear calculation, but did not specify     |
+|     the initial magnetic moment with the MAGMOM tag. Note that a            |
+|     default of 1 will be used for all atoms. This ferromagnetic setup       |
+|     may break the symmetry of the crystal, in particular it may rule        |
+|     out finding an antiferromagnetic solution. Thence, we recommend         |
+|     setting the initial magnetic moment manually or verifying carefully     |
+|     that this magnetic setup is desired.                                    |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ scaLAPACK will be used
+ Reading from existing POTCAR
+ LDA part: xc-table for Pade appr. of Perdew
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ reading imaginary part of occupancies ...
+ charge-density read from file: unknown                                 
+ reading imaginary part of occupancies ...
+ magnetization density read from file 1
+ reading imaginary part of occupancies ...
+ magnetization density read from file 2
+ reading imaginary part of occupancies ...
+ magnetization density read from file 3
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.767543919352E+02    0.76754E+02   -0.37192E+03  9880   0.449E+02
+DAV:   2    -0.752993237093E+01   -0.84284E+02   -0.71707E+02 13480   0.166E+02
+DAV:   3    -0.134275021452E+02   -0.58976E+01   -0.58209E+01 13240   0.473E+01
+DAV:   4    -0.134830147027E+02   -0.55513E-01   -0.55480E-01 12480   0.557E+00
+DAV:   5    -0.134838729129E+02   -0.85821E-03   -0.85819E-03 12656   0.504E-01
+DAV:   6    -0.134839006422E+02   -0.27729E-04   -0.27729E-04 12824   0.772E-02
+DAV:   7    -0.134839019073E+02   -0.12651E-05   -0.12651E-05 12520   0.119E-02
+DAV:   8    -0.134839019734E+02   -0.66023E-07   -0.66014E-07 10760   0.260E-03
+DAV:   9    -0.134839019767E+02   -0.33236E-08   -0.34151E-08  7936   0.695E-04
+DAV:  10    -0.134839019772E+02   -0.52898E-09   -0.43355E-09  7192   0.312E-04
+DAV:  11    -0.134839019773E+02   -0.12290E-09   -0.14496E-09  6632   0.175E-04
+DAV:  12    -0.134839019774E+02   -0.53660E-10   -0.56169E-10  6344   0.104E-04
+DAV:  13    -0.134839019774E+02   -0.25125E-10   -0.22396E-10  6176   0.649E-05
+   1 F= -.13483902E+02 E0= -.13483902E+02  d E =-.178305E-12  mag=     0.0000     0.0000     0.0000

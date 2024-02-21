@@ -1,0 +1,61 @@
+ running   16 mpi-ranks, on    1 nodes
+ distrk:  each k-point on   16 cores,    1 groups
+ distr:  one band on    4 cores,    4 groups
+ vasp.6.4.2 20Jul23 (build Nov 14 2023 13:24:25) complex                        
+  
+ POSCAR found type information on POSCAR Sb
+ POSCAR found :  1 types and       2 ions
+ Reading from existing POTCAR
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     You use a magnetic or noncollinear calculation, but did not specify     |
+|     the initial magnetic moment with the MAGMOM tag. Note that a            |
+|     default of 1 will be used for all atoms. This ferromagnetic setup       |
+|     may break the symmetry of the crystal, in particular it may rule        |
+|     out finding an antiferromagnetic solution. Thence, we recommend         |
+|     setting the initial magnetic moment manually or verifying carefully     |
+|     that this magnetic setup is desired.                                    |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ scaLAPACK will be used
+ Reading from existing POTCAR
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.358560022166E+02    0.35856E+02   -0.14888E+03  3944   0.198E+02
+DAV:   2    -0.368875332296E+01   -0.39545E+02   -0.36982E+02  5760   0.691E+01
+DAV:   3    -0.715906012927E+01   -0.34703E+01   -0.34302E+01  5016   0.213E+01
+DAV:   4    -0.729784778548E+01   -0.13879E+00   -0.13866E+00  5864   0.495E+00
+DAV:   5    -0.730048493796E+01   -0.26372E-02   -0.26371E-02  5056   0.606E-01
+DAV:   6    -0.730056439063E+01   -0.79453E-04   -0.79452E-04  6224   0.110E-01
+DAV:   7    -0.730056482095E+01   -0.43032E-06   -0.43040E-06  5128   0.873E-03
+DAV:   8    -0.730056482651E+01   -0.55549E-08   -0.55885E-08  3976   0.120E-03
+DAV:   9    -0.730056482788E+01   -0.13689E-08   -0.12765E-08  3248   0.613E-04
+DAV:  10    -0.730056482837E+01   -0.49818E-09   -0.50657E-09  3280   0.431E-04
+DAV:  11    -0.730056482857E+01   -0.19185E-09   -0.24780E-09  3192   0.302E-04
+DAV:  12    -0.730056482870E+01   -0.13409E-09   -0.12708E-09  3304   0.223E-04    0.538E+00
+DAV:  13    -0.793192188036E+01   -0.63136E+00   -0.17972E-02  5952   0.889E-01    0.343E+00
+DAV:  14    -0.828393747380E+01   -0.35202E+00   -0.40861E-02  5736   0.142E+00    0.102E+00
+DAV:  15    -0.827001755661E+01    0.13920E-01   -0.36282E-02  4544   0.724E-01    0.362E-01
+DAV:  16    -0.827191026033E+01   -0.18927E-02   -0.29371E-03  5888   0.251E-01    0.151E-01
+DAV:  17    -0.827139110112E+01    0.51916E-03   -0.16408E-03  4472   0.183E-01    0.713E-02
+DAV:  18    -0.827136716096E+01    0.23940E-04   -0.29998E-04  5808   0.703E-02    0.418E-02
+DAV:  19    -0.827135481898E+01    0.12342E-04   -0.10041E-04  4672   0.451E-02    0.201E-02
+DAV:  20    -0.827135941154E+01   -0.45926E-05   -0.16292E-05  5264   0.179E-02    0.962E-03
+DAV:  21    -0.827135512261E+01    0.42889E-05   -0.13145E-05  4256   0.157E-02    0.429E-03
+DAV:  22    -0.827135717860E+01   -0.20560E-05   -0.37655E-06  4160   0.762E-03    0.199E-03
+DAV:  23    -0.827135712182E+01    0.56780E-07   -0.13835E-07  3880   0.207E-03
+   1 F= -.82713571E+01 E0= -.82713571E+01  d E =-.393855E-12  mag=    -0.0001    -0.0001    -0.0001
