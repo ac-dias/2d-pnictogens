@@ -1,17 +1,24 @@
-# 2d-pnictogens
-Raw data for the 2d pnictogens
+# 2D-Pnictogens Raw Data Repository
 
-Manuscript Title: Unveiling Excitons in Two-Dimensional $\beta$-Pnictogens
+This repository contains raw data pertinent to the study titled "Unveiling Excitons in Two-Dimensional β-Pnictogens."
 
-This file explains the contents of the RAWDATA in each folder
+## Manuscript Title
 
-1) stress-tensor : data from structural optimization (VASP-PBE)
-2) phonons : data from phonon dispersion calculations and thermodynamic properties (VASP-PBE+Phonopy)
-3) dos : data from density of states (VASP-PBE)
-4) diel: data for obtaining dielectric effective constant (VASP-PBE)
-5) bands: data for the electronic band structure (VASP-PBE)
-6) bands-soc : data for the electronic band structure with spin-orbit coupling effects (VASP-PBE+SOC)
-7) hse06 : data from HSE06+SOC calculations using VASP with Wannier90, to obtain HSE06+SOC MLWF-TB Hamiltonian (VASP-HSE06+SOC/Wannier90)
-8) raman : data for the obtaining of raman spectrum (VASP-PBE/vasp_raman.py)
-9) tb-sp : data from MLWF-TB optical properties, IPA level, using WanTiBEXOS code (WanTiBEXOS/VASP HSE06+SOC MLWF-TB Hamiltonian)
-9) tb-bse : data from MLWF-TB excitonic and optical properties, BSE level, using WanTiBEXOS code (WanTiBEXOS/VASP HSE06+SOC MLWF-TB Hamiltonian)
+"Unveiling Excitons in Two-Dimensional β-Pnictogens"
+
+## Contents Explanation
+
+This README provides an overview of the data stored within the respective folders:
+
+1. **stress-tensor**: Data from structural optimization conducted with VASP-PBE.
+2. **phonons**: Data derived from phonon dispersion calculations and thermodynamic properties obtained using VASP-PBE+Phonopy.
+3. **dos**: Data representing the density of states calculated with VASP-PBE.
+4. **diel**: Data was utilized to determine the dielectric effective constant through VASP-PBE.
+5. **bands**: Data concerning the electronic band structure computed with VASP-PBE.
+6. **bands-soc**: Data on the electronic band structure, including spin-orbit coupling effects, calculated with VASP-PBE+SOC.
+7. **hse06**: Data obtained from HSE06+SOC calculations utilizing VASP with Wannier90, facilitating the derivation of HSE06+SOC MLWF-TB Hamiltonian (VASP-HSE06+SOC/Wannier90).
+8. **raman**: Data contributing to the generation of Raman spectrum, derived from VASP-PBE calculations along with vasp_raman.py.
+9. **tb-sp**: Data for MLWF-TB optical properties at the IPA level, employing WanTiBEXOS code (WanTiBEXOS/VASP HSE06+SOC MLWF-TB Hamiltonian).
+10. **tb-bse**: Data for MLWF-TB excitonic and optical properties at the BSE level, utilizing WanTiBEXOS code (WanTiBEXOS/VASP HSE06+SOC MLWF-TB Hamiltonian).
+
+For detailed information on WanTiBEXOS, refer to its documentation website: [WanTiBEXOS Documentation](https://wantibexos.readthedocs.io/en/latest/)
