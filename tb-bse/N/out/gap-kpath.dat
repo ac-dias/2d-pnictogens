@@ -1,0 +1,12 @@
+ fundamental band gap (eV):   6.07053986449473     
+ direct band gap (eV):   7.30961167139980     
+ 
+ 
+ kpoint cbm
+     1.37147830     0.78652688     0.00000000
+ 
+ kpoint vbm
+     0.75224897     0.00000000     0.00000000
+ 
+ kpoint direct band gap
+     0.61464245     0.00000000     0.00000000

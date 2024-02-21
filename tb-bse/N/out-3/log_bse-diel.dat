@@ -1,0 +1,22 @@
+ 
+ 
+ 
+ threads:          16
+ 
+ grid:          50          50           1
+ 
+ ktol-coulomb:     0.1000E-02
+ 
+ kmesh shift:         0.0000         0.0000         0.0000
+ 
+ conduction bands, nc:           6   valence bands, nv:           6
+ 
+ Coulomb Potential:V2DRK
+ 
+ begin  day           2            9 hours           0 min           7 seg
+ 
+ direct gap:   5.96463958569181     
+ eigenvalues and eigenvectors calculated
+ quantum numbers for exciton basis set finished
+ single particle optics finished
+ exciton Hamiltonian matrix finished

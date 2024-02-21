@@ -1,0 +1,70 @@
+NTHREADS= 64
+SYSDIM= "2D"
+DFT= W
+
+BSE_ALGO= cheev
+
+BANDS= F
+BSE= T
+DIEL= F
+DTDIAG= F
+CPOL= T 
+BSE_BND= F
+DOS= F
+PCE= F
+OPT_BZ= F
+BERRY_BZ= F
+BERRY= F
+
+
+SPEC= T
+PP_ONLY= F
+TMCOEF= T
+BSE_WF= F
+
+
+PARAMS_FILE= "tb_hr.dat" 
+KPATH_FILE= "kpoints.dat"
+KPATH_BSE= "kpoints-bse.dat" 
+OUTPUT= "./out-2/"
+CALC_DATA= "./out-2/"
+
+#EM_FILE= "cbm_vbm-kpath.dat"
+#EM_TENSOR= F
+#dK=   0.0010
+
+
+
+KMESH_GEN= MKH            
+NGX= 50
+NGY= 50
+NGZ= 1
+
+
+COULOMB_POT= "V2DRK"
+LC= 24.00
+EDIEL= 1.675786
+
+NBANDSC= 6
+NBANDSV= 6
+
+
+CSHIFT= 0.05 
+
+
+ENSPECI=  0.00
+ENSPECF=  8.00     
+NESPEC=   6001
+
+
+
+
+#SES= AM15G 
+#CTEMP=  300
+#THMAX=  3.7E-9
+#EG=   
+#EGD=   
+#EGS=   
+#EBGS=   
+
+	

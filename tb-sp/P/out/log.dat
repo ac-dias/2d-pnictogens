@@ -1,0 +1,116 @@
+NTHREADS= 16
+SYSDIM= 2D
+DFT= W
+ 
+ INPUT/OUTPUT FILES
+ 
+OUTPUT= ./out/                                                                
+CALC_DATA= ./out/                                                                
+PARAMS_FILE= tb_hr.dat                                                             
+KPATH_FILE= kpoints.dat                                                           
+KPATH_BSE= kpoints-bse.dat                                                       
+ORB_W= unknown                                                               
+EM_FILE= unknown                                                               
+ 
+ CONTROL
+ 
+BANDS= F
+DOS= F
+BSE= F
+BSE_BND= F
+DIEL= F
+OPT_BZ= T
+SPEC= F
+BERRY_BZ= T
+BERRY= T
+PP_ONLY= F
+BSE_WF= F
+TMCOEF= F
+DTDIAG= F
+CPOL= F
+PCE= F
+EM_TENSOR= F
+SPIN_TXT= F
+ 
+ K-MESH
+ 
+KMESH_GEN= 2DHEX          
+NGX= 141
+NGY= 141
+NGZ= 1
+SHIFT_1=   0.0000
+SHIFT_2=   0.0000
+SHIFT_3=   0.0000
+ 
+ DOS
+ 
+NEDOS= 6001
+SIGMA=   0.0800
+ 
+ BSE/OPTICAL PROPERTIES
+ 
+BSE_ALGO= cheevd      
+NBANDSC= 6
+NBANDSV= 6
+ENSPECI=   0.0000
+ENSPECF=   8.0000
+NESPEC= 6001
+KTOL=   0.0010
+EXC_WF_I= 1
+EXC_WF_F= 2
+COULOMB_POT= V2DRK
+CSHIFT=   0.0500
+RNMD= T
+ 
+ PARAMETERS FOR COULOMB POTENTIALS
+ 
+EDIEL_Z=   1.0000
+W_COUL=   0.0000
+LC=  24.0000
+R_0=   1.0000
+EDIEL_T=   1.0000
+EDIEL_B=   1.0000
+EDIEL=   3.0442
+ 
+ PARAMETERS FOR BSE with Temperature Effects
+ 
+TA= FA
+ST=   0.0000
+PHAVG=   0.0000
+TEMP=   0.0000
+ 
+ PARAMETERS FOR PCE
+ 
+SES= AM15G 
+CTEMP= 298.1500
+THMAX=      0.5000E-05
+EG=   0.0000
+EGD=   0.0000
+EGS=   0.0000
+EBGS=   0.0000
+ 
+ Effective Mass
+ 
+dK=   0.0010
+ 
+ OTHERS
+ 
+FERMI_SHIFT=   0.0000
+NOCPF= 0
+ 
+ EXTERNAL HAMILTONIANS
+ 
+SPIN_EXC=   0.0000
+MAG_X=   0.0000
+MAG_Y=   0.0000
+MAG_Z=   1.0000
+ 
+ 
+ Begin  day          28            9 hours           7 min          28 seg
+ 
+ Single particle optical activity in BZ finished
+ Berry curvature in kpath finished
+ Berry curvature in BZ finished
+ 
+ End   day          28            9 hours          56 min          52 seg
+ 

@@ -1,0 +1,37 @@
+
+    Raman off-resonant activity calculator,
+    using VASP as a back-end.
+
+    Contributors: Alexandr Fonari  (Georgia Tech)
+                  Shannon Stauffer (UT Austin)
+    MIT License, 2013
+    URL: http://raman-sc.github.io
+    Started at: 2023-12-29 16:10
+
+[__main__]: VASP_RAMAN_RUN='mpirun -hostfile /var/spool/pbs/aux/9041.salpeter-00 -np 16 vasp_std > log.out'
+[__main__]: VASP_RAMAN_PARAMS='01_3_2_0.01'
+[[2.056683274835569, 1.1874266423641335, 7.178006373981702], [1.4654943925052066e-14, 2.3748532847282418, 8.821993626018298]]
+
+[__main__]: Mode #1: frequency 201.3536170 cm-1; norm:  0.0906285
+[__main__]: File OUTCAR.0001.-1.out not found, preparing displaced POSCAR
+[__main__]: Running VASP...
+[__main__]: File OUTCAR.0001.+1.out not found, preparing displaced POSCAR
+[__main__]: Running VASP...
+
+!    1  freq:  201.35362  alpha: -5.7829518  beta2: 68.5611846  activity: 1984.8421951 
+
+[__main__]: Mode #2: frequency 159.6326640 cm-1; norm:  0.0906288
+[__main__]: File OUTCAR.0002.-1.out not found, preparing displaced POSCAR
+[__main__]: Running VASP...
+[__main__]: File OUTCAR.0002.+1.out not found, preparing displaced POSCAR
+[__main__]: Running VASP...
+
+!    2  freq:  159.63266  alpha: -0.0004509  beta2: 155.5360536  activity: 1088.7523845 
+
+[__main__]: Mode #3: frequency 159.6326640 cm-1; norm:  0.0906288
+[__main__]: File OUTCAR.0003.-1.out not found, preparing displaced POSCAR
+[__main__]: Running VASP...
+[__main__]: File OUTCAR.0003.+1.out not found, preparing displaced POSCAR
+[__main__]: Running VASP...
+
+!    3  freq:  159.63266  alpha: -0.0000564  beta2: 155.5578480  activity: 1088.9049358 

@@ -1,0 +1,36 @@
+ 
+ 
+ 
+ threads:          16
+ 
+ grid:          60          60           1
+ 
+ ktol-coulomb:     0.1000E-02
+ 
+ kmesh shift:         0.0000         0.0000         0.0000
+ 
+ conduction bands, nc:           6   valence bands, nv:           6
+ 
+ Coulomb Potential:V2DRK
+ 
+ begin  day          28           13 hours          14 min          55 seg
+ 
+ direct gap:   5.96906291328539     
+ eigenvalues and eigenvectors calculated
+ quantum numbers for exciton basis set finished
+ single particle optics finished
+ exciton Hamiltonian matrix finished
+ exciton Hamiltonian diagonalized
+ exciton ground state   2.305160    
+ xx tensor component
+ yy tensor component
+ zz tensor component
+ xy tensor component set to 0
+ xz tensor component set to 0
+ yz tensor component set to 0
+ sp polarization
+ sm polarization
+ optics finished
+ 
+ end   day           5           18 hours          18 min          24 seg
+ 
